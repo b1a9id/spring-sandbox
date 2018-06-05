@@ -1,4 +1,4 @@
-package com.sandbox.spring.service.request;
+package com.sandbox.spring.service.client.request;
 
 import lombok.Builder;
 import lombok.Getter;

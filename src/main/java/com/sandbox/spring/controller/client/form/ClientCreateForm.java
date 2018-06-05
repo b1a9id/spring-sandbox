@@ -1,6 +1,6 @@
-package com.sandbox.spring.controller.form;
+package com.sandbox.spring.controller.client.form;
 
-import com.sandbox.spring.service.request.ClientCreateRequest;
+import com.sandbox.spring.service.client.request.ClientCreateRequest;
 import lombok.Getter;
 import lombok.Setter;
 

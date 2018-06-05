@@ -1,10 +1,10 @@
-package com.sandbox.spring.service;
+package com.sandbox.spring.service.client;
 
 import com.sandbox.spring.model.entity.Address;
 import com.sandbox.spring.model.entity.Client;
 import com.sandbox.spring.model.repository.ClientRepository;
-import com.sandbox.spring.service.request.ClientCreateRequest;
-import com.sandbox.spring.service.request.ClientEditRequest;
+import com.sandbox.spring.service.client.request.ClientCreateRequest;
+import com.sandbox.spring.service.client.request.ClientEditRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

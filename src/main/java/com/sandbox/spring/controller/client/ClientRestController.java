@@ -1,9 +1,9 @@
-package com.sandbox.spring.controller;
+package com.sandbox.spring.controller.client;
 
-import com.sandbox.spring.controller.form.ClientCreateForm;
-import com.sandbox.spring.controller.form.ClientEditForm;
+import com.sandbox.spring.controller.client.form.ClientCreateForm;
+import com.sandbox.spring.controller.client.form.ClientEditForm;
 import com.sandbox.spring.model.entity.Client;
-import com.sandbox.spring.service.ClientService;
+import com.sandbox.spring.service.client.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;

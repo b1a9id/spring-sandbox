@@ -1,6 +1,6 @@
-package com.sandbox.spring.controller.form;
+package com.sandbox.spring.controller.client.form;
 
-import com.sandbox.spring.service.request.AddressEditRequest;
+import com.sandbox.spring.service.client.request.AddressCreateRequest;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-public class AddressEditForm implements Serializable {
+public class AddressCreateForm implements Serializable {
 
 	@NotNull
 	private Integer postalCode;
@@ -20,8 +20,8 @@ public class AddressEditForm implements Serializable {
 	@NotNull
 	private String address2;
 
-	public AddressEditRequest toAddressEditRequest() {
-		return AddressEditRequest
+	public AddressCreateRequest toAddressCreateRequest() {
+		return AddressCreateRequest
 				.builder()
 				.postalCode(getPostalCode())
 				.address1(getAddress1())
